@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>                      <!--  2    -->                        
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- object create kora hoiche (html code er moto ai code) -->
+    <bean class="in.sp.beans.Student" id="stdObj">        <!-- POJO class er object create korche. akdhik pojo class thakte pare ex. Student and Teacher. tokhon alada alada vabe value pass korbo -->
+    	<property name="name" value="Pollob Kumar"/>
+    	<property name="rollno" value="123" />
+    </bean>
+
+  <!-- <bean class="in.sp.beans.Teacher" id="stdObj1">        alada vabe value pass kora
+    	<property name="name" value="Deepak Panwar"/>
+    	<property name="rollno" value="111" />
+    </bean> -->
+    
+</beans>
